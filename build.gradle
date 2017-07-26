@@ -25,6 +25,9 @@ dependencies {
     //compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf'
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '1.5.4.RELEASE'
+    // https://mvnrepository.com/artifact/org.hashids/hashids
+    //this library allows to easily generate uq hashes for gifs
+    compile group: 'org.hashids', name: 'hashids', version: '1.0.1'
 
 
 }
