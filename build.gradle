@@ -20,14 +20,18 @@ repositories {
 }
 
 dependencies {
-    //compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.4.RELEASE'
-    // https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf
-    //compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf'
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '1.5.4.RELEASE'
     // https://mvnrepository.com/artifact/org.hashids/hashids
     //this library allows to easily generate uq hashes for gifs
     compile group: 'org.hashids', name: 'hashids', version: '1.0.1'
-
+    // https://mvnrepository.com/artifact/org.springframework/spring-orm
+    compile group: 'org.springframework', name: 'spring-orm', version: '4.3.9.RELEASE'
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.10.Final'
+    // https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-dbcp
+    compile group: 'org.apache.tomcat', name: 'tomcat-dbcp', version: '8.5.16'
+    // https://mvnrepository.com/artifact/com.h2database/h2
+    compile group: 'com.h2database', name: 'h2', version: '1.4.196'
 
 }
