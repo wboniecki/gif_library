@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a2b362c-e33d-43f2-bdea-6f8e7b2bb703" name="Default" comment="" />
+    <list default="true" id="8a2b362c-e33d-43f2-bdea-6f8e7b2bb703" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/web/controller/CategoryController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/web/controller/CategoryController.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -133,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CategoryServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springbasics/giflib/service/CategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="320">
               <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -159,11 +161,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CategoryController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springbasics/giflib/web/controller/CategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="33" selection-end-column="82" />
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -552,12 +554,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/app.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/model/Gif.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/model/Category.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/web/controller/CategoryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/config/DataConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/dao/CategoryDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/dao/CategoryDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/service/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/web/controller/CategoryController.java" />
       </list>
     </option>
   </component>
@@ -1362,16 +1364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springbasics/giflib/web/controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="33" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springbasics/giflib/dao/CategoryDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
@@ -1404,7 +1396,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springbasics/giflib/service/CategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="320">
           <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1412,6 +1404,16 @@
             <element signature="e#490#491#0" expanded="true" />
             <element signature="e#545#546#0" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springbasics/giflib/web/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

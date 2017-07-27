@@ -1,6 +1,7 @@
 package com.springbasics.giflib.web.controller;
 
 import com.springbasics.giflib.model.Category;
+import com.springbasics.giflib.service.CategoryService;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,19 +20,14 @@ import java.util.List;
 @Controller
 public class CategoryController {
     @Autowired
-    private SessionFactory sessionFactory;
+    private CategoryService categoryService;
 
     // Index of all categories
     @SuppressWarnings("unchecked")
     @RequestMapping("/categories")
     public String listCategories(Model model) {
         // TODO: Get all categories
-        Session session = sessionFactory.openSession();
-        CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<Category> criteria = builder.createQuery(Category.class);
-        Root<Category> varRoot = criteria.from(Category.class);
-        criteria.select(varRoot);
-        List<Category> categories = session.createQuery(criteria).getResultList();
+        List<Category> categories = categoryService.findAll();
 
         model.addAttribute("categories",categories);
         return "category/index";
