@@ -1,23 +1,37 @@
 package com.springbasics.giflib.web.controller;
 
 import com.springbasics.giflib.model.Category;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 import java.util.ArrayList;
 import java.util.List;
 
 @Controller
 public class CategoryController {
+    @Autowired
+    private SessionFactory sessionFactory;
 
     // Index of all categories
+    @SuppressWarnings("unchecked")
     @RequestMapping("/categories")
     public String listCategories(Model model) {
         // TODO: Get all categories
-        List<Category> categories = new ArrayList<>();
+        Session session = sessionFactory.openSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<Category> criteria = builder.createQuery(Category.class);
+        Root<Category> varRoot = criteria.from(Category.class);
+        criteria.select(varRoot);
+        List<Category> categories = session.createQuery(criteria).getResultList();
 
         model.addAttribute("categories",categories);
         return "category/index";
