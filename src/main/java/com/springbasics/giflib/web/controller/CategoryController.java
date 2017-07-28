@@ -3,6 +3,7 @@ package com.springbasics.giflib.web.controller;
 import com.springbasics.giflib.model.Category;
 import com.springbasics.giflib.service.CategoryService;
 import com.springbasics.giflib.web.Color;
+import com.springbasics.giflib.web.FlashMessage;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -91,6 +92,8 @@ public class CategoryController {
             return "redirect:/categories/add";
         }
         categoryService.save(category);
+
+        redirectAttributes.addFlashAttribute("flash", new FlashMessage("Category successfully added!", FlashMessage.Status.SUCCESS));
 
         // TODO: Redirect browser to /categories
         return "redirect:/categories";
