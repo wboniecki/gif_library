@@ -45,7 +45,7 @@ public class GifDaoImpl implements GifDao {
     @Override
     public void save(Gif gif) {
         Session session = sessionFactory.openSession();
-        session.getTransaction();
+        session.beginTransaction();
         session.save(gif);
         session.getTransaction().commit();
         session.close();
@@ -54,7 +54,7 @@ public class GifDaoImpl implements GifDao {
     @Override
     public void delete(Gif gif) {
         Session session = sessionFactory.openSession();
-        session.getTransaction();
+        session.beginTransaction();
         session.delete(gif);
         session.getTransaction().commit();
         session.close();
