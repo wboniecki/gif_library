@@ -10,5 +10,6 @@ public interface GifService {
     List<Gif> findAll();
     Gif findById(Long id);
     void save(Gif gif, MultipartFile file);
+    void update(Gif gif);
     void delete(Gif gif);
 }

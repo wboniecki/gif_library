@@ -35,6 +35,11 @@ public class GifServiceImpl implements GifService {
     }
 
     @Override
+    public void update(Gif gif) {
+        gifDao.save(gif);
+    }
+
+    @Override
     public void delete(Gif gif) {
         gifDao.delete(gif);
     }

@@ -1,6 +1,8 @@
 package com.springbasics.giflib.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
@@ -13,6 +15,7 @@ public class Gif {
     //LOB - Large OBject
     @Lob
     private byte[] bytes;
+    @Size(min = 0, max = 20)
     private String description;
     @ManyToOne
     private Category category;
