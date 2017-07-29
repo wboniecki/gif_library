@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a2b362c-e33d-43f2-bdea-6f8e7b2bb703" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/giflib.mv.db" afterPath="$PROJECT_DIR$/data/giflib.mv.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/service/GifService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/service/GifService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/service/GifServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/service/GifServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/web/controller/GifController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springbasics/giflib/web/controller/GifController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -159,7 +156,7 @@
           <file leaf-file-name="GifController.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/springbasics/giflib/web/controller/GifController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="456">
+                <state relative-caret-position="514">
                   <caret line="148" column="70" lean-forward="false" selection-start-line="148" selection-start-column="70" selection-end-line="148" selection-end-column="70" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -1228,7 +1225,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1239,7 +1235,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753327" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24861878" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24861878" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1585,7 +1581,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springbasics/giflib/web/controller/GifController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="514">
           <caret line="148" column="70" lean-forward="false" selection-start-line="148" selection-start-column="70" selection-end-line="148" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
