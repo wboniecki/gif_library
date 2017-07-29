@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.tomcat:tomcat-dbcp:8.5.16">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-dbcp/8.5.16/963aaa234624cfe75ad3a3fabb289d9a2aeef6/tomcat-dbcp-8.5.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-dbcp/8.5.16/e900ef75472eb9ed110c28b8b3f0e7c380b9df6a/tomcat-dbcp-8.5.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
